@@ -1,0 +1,1 @@
+sudo ./DPITunnel-cli-exec --ip=127.0.0.1 -doh -doh-server https://1.1.1.1/dns-query -ttl 7 -ca-bundle-path /etc/ca-certificates/extracted/tls-ca-bundle.pem -desync-attacks rst,disorder_fake
